@@ -1,0 +1,15 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int a , b;
+    printf("Enter the values of a and b :\n");
+    scanf("%d",&a);
+    scanf("%d",&b);
+    int max = (a>b)*a + (b>a)*b;
+    printf("%d is the greatest number ",max);
+    return 0;
+}
+In this code I have used a simple logic to find the maximum number : max= (a>b)*a + (b>a)*b 
+if (a>b) is true, it becomes ((1)*a)=a gets true and printed , the same is for (b>a) .
